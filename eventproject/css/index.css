@@ -1,0 +1,236 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* offer-line css */
+.offer-line {
+    width: 100%;
+    background: #005099;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+/* header contain started */
+/* main - header */
+.main-header {
+    background-color: #fff2bd;
+}
+
+/* All header in a tag */
+/* 1 */
+.header-a1 {
+    color: #005099 !important;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-a1::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    width: 70px;
+    border-bottom: 4px solid green;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+
+.header-a1:hover::after {
+    transform: scale(1);
+}
+
+/* 2 */
+.header-a2 {
+    color: #005099 !important;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-a2::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 70px;
+    border-bottom: 4px solid green;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+
+.header-a2:hover::after {
+    transform: scale(1);
+}
+
+/* 3 */
+.header-a3 {
+    color: #005099 !important;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-a3::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 85px;
+    border-bottom: 4px solid green;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+
+.header-a3:hover::after {
+    transform: scale(1);
+}
+
+/* 4 */
+.header-a4 {
+    color: #005099 !important;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-a4::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    width: 60px;
+    border-bottom: 4px solid green;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+
+.header-a4:hover::after {
+    transform: scale(1);
+}
+
+/* 5 */
+.header-a5 {
+    color: #005099 !important;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-a5::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    width: 45px;
+    border-bottom: 4px solid green;
+    transform: scale(0);
+    transition: all 0.3s linear;
+}
+
+.header-a5:hover::after {
+    transform: scale(1);
+}
+
+/* header dropdown menu create */
+
+
+/* main contain started */
+/* hero section started */
+.hero-main {
+    width: 100%;
+    background-color: #fff2bd;
+}
+
+.hero-h2 {
+    font-size: 75px;
+    font-weight: bold;
+    color: #005099;
+}
+
+.hero-p {
+    font-size: 20px;
+    color: #005099;
+    font-weight: 500;
+}
+
+.hero-button {
+    width: 179px;
+    height: 53px;
+    background-color: #005099;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hero-button-a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-contain {
+    margin-top: 150px;
+}
+
+.hero-img {
+    width: 99%;
+}
+
+/* shop-section started */
+.main-shop {
+    width: 100%;
+}
+
+/* shop-card-1 */
+.shop-card-1 { height: 531px; width: 33.3.%;background-color: #f7b9e1; text-align: center; position: relative;}
+
+.shop-card-1 h4 { color: #005099;padding-top: 40px;  font-size: 40px; font-weight: 700; cursor: pointer;}
+.shop-card-1 a{  text-decoration: none; border-bottom: 4px solid white; color: #005099; font-weight: 700; font-size: 19px; }
+.shop-card-1 a:hover{color: white;  transition: all 0.2s linear;}
+/* shop-card img css */
+.shop-card-1-img { position: absolute; left: 120px; top: 130px;  width: 54%; cursor: pointer;  margin-top: 30px; display: block;}
+/* hover */
+/* .shop-card-1-img:hover{
+    display: block;
+} */
+.shop-card-1-hoverimg{ position: absolute; left: 120px; top: 130px;  width: 54%; cursor: pointer;  margin-top: 30px; display: block; }
+/* hover */
+.shop-card-1-hoverimg:hover{ display: none;}
+
+/* shop-card-2 */
+.shop-card-2 { height: 531px; width: 33.3.%; text-align: center; background-color: #60cf94; position: relative;}
+.shop-card-2 h4{color: #005099;padding-top: 40px;  font-size: 40px; font-weight: 700; cursor: pointer; }
+.shop-card-2 a{  text-decoration: none; border-bottom: 4px solid white; color: #005099; font-weight: 700; font-size: 19px;}
+/* a tag hover */
+.shop-card-2 a:hover{color: white;  transition: all 0.2s linear;}
+/* card-2 img */
+.shop-card-2 img{ position: absolute;left: 120px; top: 130px;  width: 54%;   margin-top: 30px; cursor: pointer; }
+
+/* shop-card-3 */
+.shop-card-3 {height: 531px;width: 33.3.%; position: relative; text-align: center; background-color: #abdbe9;}
+.shop-card-3 h4{color: #005099;padding-top: 40px;  font-size: 40px; font-weight: 700; cursor: pointer; }
+.shop-card-3 a{  text-decoration: none; border-bottom: 4px solid white; color: #005099; font-weight: 700; font-size: 19px;}
+/* a tag hover */
+.shop-card-3 a:hover{color: white;  transition: all 0.2s linear;}
+/* card-2 img */
+.shop-card-3-img{ position: absolute;left: 120px; top: 130px;  width: 65%;   margin-top: 30px; cursor: pointer; }
+
+.shop-card-3-img { position: absolute; left: 120px; top: 130px;  width: 65%; cursor: pointer;  margin-top: 30px; display: block;}
+/* hover */
+/* .shop-card-3-img:hover{
+    display: block;
+} */
+.shop-card-3-hoverimg{ position: absolute; left: 120px; top: 130px;  width: 65%; cursor: pointer;  margin-top: 30px; display: block; }
+/* hover */
+.shop-card-3-hoverimg:hover{ display: none;}
+
+
+
+.yourself-main{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.getbento.com/accounts/b1e41b778dec00856dafecad5140d46d/media/images/67474IMG-7064.JPG?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5);
+    background-position: center;
+    background-size: cover;
+}
