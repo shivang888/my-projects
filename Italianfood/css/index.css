@@ -1,0 +1,135 @@
+/* universal selector */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/* main container */
+.container{width: 100%; height: 679px; position: relative; overflow: hidden; background-color: #555d70;  background-image: url(../img/background-img.png);background-position: center;}
+.shape{width: 40%; height: 640px;position: absolute; left: 50%; right: 50%; transform: translate(-50%,-50%);  clip-path: polygon(0% 0%, 100% 0%, 0% 100%); background-color: #c45f51; margin-left: -31%;}
+.shape-2{width: 40%; height: 600px;position: absolute; left: 50%; right: 50%; transform: translate(-50%,-50%);  clip-path: polygon(0% 0%, 93% 0%, 0% 100%); background-color: #23262c; margin-left: -31%;z-index: 1;}
+.shape-3{width: 37%; height: 450px;position: absolute; left: 50%; right: 50%; transform: rotate(180deg);  clip-path: polygon(0% 0%, 100% 0%, 0% 100%); background-color: #c45f51; margin-left: 13%; margin-top: -15.2%;z-index: 1;}
+.shape-4{width: 37%; height: 430px;position: absolute; left: 50%; right: 50%; transform: rotate(180deg);  clip-path: polygon(0% 0%, 93% 0%, 0% 100%); background-color: #23262c; margin-left: 13%; margin-top: -13.9%;z-index: 1;}
+/* header contain started */
+.main-header{width: 100%;height: 100px;}
+.logo{position: absolute;z-index: 2; margin-top: 2%; margin-left: 2%;}
+.logo>img{width: 62%;}
+.nav-content{width: 70%;height: 50px;margin: auto;display: flex;justify-content: center; gap: 30px; margin-top: 2%;}
+.nav-content>ul{display: flex;justify-items: center;align-items: center;gap: 50px; color: white;list-style-type: none;font-size: 20px;font-weight: 800;font-family: "Raleway";}
+.search-bar>input{ height: 30px; border-radius: 25px; margin-left: 18%; margin-top: 5%;}
+.bars{margin-left: 8%;margin-top: 1.2%;}
+/* header contain end */
+/* hero-section started */
+.hero-section{width: 40%;height: 300px;margin: auto;margin-top: 3%;}
+.content{margin-top: 10%;}
+.content>h2{font-size: 110px;color: white;text-align: center; font-family: "Yeseva One";}
+.content>h3{font-size: 38px;color: white;text-align: center;}
+.content>h4{font-size: 30px;color: white;text-align: center;margin-top: 5%;}
+.content>button{width: 19%;height: 35px; border: 1px solid white;   border-radius: 20px;margin-left: 40%;margin-top: 5%;font-weight: 800;}
+/* hero-section end */
+
+/* about section started */
+.main-about{width: 100%;height: auto;margin-top: 4%;}
+.aboutUs{width: 90%;height: auto;margin: auto;display: grid;grid-template-columns: repeat(2,1fr);justify-items: center;align-items: center;}
+.about-content{width: 80%; padding: 8%;}
+.about-content>h2{font-size: 50px;text-align: center;}
+.about-content>h5{font-size: 23px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;letter-spacing: 1px;}
+.line{width: 65%;border-bottom: 2px solid black;margin-left: 26%;}
+.about-conte{width: 60%; margin-left: 25%;}
+.about-conte>p{text-align: justify;font-size: 22px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.about-img{width: 70%;height: 75%;}
+.about-img>img{height: 100%;}
+/* about section end */
+
+/* Our Services section css started */
+.main-specialist{width: 100%; height: 350px; border: 1px solid red;margin-top: 5%;background-image: url(../img/our-specialist-background.png);background-size: cover;background-position: center;}
+.specialist-content{width: 40%; padding: 18px; margin: auto; margin-top: 6%;    display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.specialist-content>h2{font-size: 50px; letter-spacing: 1.3px; color: white;}
+.specialist-content>p{font-size: 18px;color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 800;letter-spacing: 1px;}
+.specialist-content>button{width: 18%; padding: 5px; border-radius: 20px;background-color: #de7b6d;border: 1px solid #de7b6d;color: white;font-weight: 800;font-size: 18px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+/* Our Services section css end */
+
+
+/* special-menu contain css started  */
+.main-menu{width: 100%;height: auto;margin-top: 5%;}
+.main-menu>h2{text-align: center;font-size: 50px;}
+.main-menu>p{text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 800;font-size: 18px;}
+.special-menu{width: 90%;height: auto;margin: auto;display: flex; flex-wrap: wrap;  justify-content: center;align-items: center;gap: 25px;}
+.menu-1{width: 350px;height: 340px;overflow: hidden;}
+/* special-menu contain css end  */
+
+/* our sevices contain started */
+.main-services{width: 100%;height: auto;margin-top: 6%;}
+.services-line{width: 90%;border-bottom: 2px solid black;margin: auto;margin-top: 2%;}
+.service-heading{width: 20%;height: 50px;background-color: rgb(255, 255, 255);font-size: 30px;text-align: center;margin: auto;margin-top: -2%;}
+.our-services{width: 90%;height: auto;margin: auto;margin-top: 2%;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 30px;}
+.box-1{width: 280px;height: 280px;display: flex;flex-direction: column;align-items: center;}
+.box-1>img{width: 32%;}
+.box-1>h3{font-size: 27px;}
+.box-1>div{width: 100%;border-bottom: 2px solid black;}
+.box-1>p{text-align: center;font-size: 19px;  letter-spacing: 1px; font-weight: 800;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+/* pasta-img */
+.pasta{height: 32%;}
+/* pizza-img */
+.pizza{height: 33%;}
+/* our sevices contain end */
+
+/* enjoypasta section started */
+.main-enjoyPasta{width: 100%;height: 600px;margin-top: 5%;background-image: url(../img/enjoy-pasta.png);background-repeat: no-repeat;background-size: cover;position: relative;}
+.pasta-shap{width: 48%; height: 540px;position: absolute; left: 39%; right: 50%; transform: rotate(180deg);  clip-path: polygon(0% 0%, 93% 0%, 0% 100%); background-color: #23262c; margin-left: 13%; margin-top: 4%;}
+.pasta-contain{width: 24%;height: 500px;float: right;position: absolute;left: 75%;margin-top: 4%;}
+.pasta-contain>h2{font-size: 50px;color: white;}
+.pasta-contain>h2>span{font-size: 95px;letter-spacing: 3px;font-family: "Yeseva One";}
+.pasta-contain>h3{color: white;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.pasta-contain>p{font-size: 25px;color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.pasta-line{width: 100%;border-bottom: 2px solid white;}
+.pasta-contain>button{width: 28%; padding: 6px; border-radius: 20px;background-color: #de7b6d;color: white;font-weight: 800;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 17px;border: 1px solid #de7b6d;}
+/* enjoypasta section end */
+
+/* discover menu css contain started */
+.main-discoverMenu{width: 100%;height: auto;margin-top: 5%;}
+.main-discoverMenu>h2{text-align: center;font-size: 40px;}
+.discover-menu{width: 90%;height: auto;    margin: auto;   margin-top: 4%;      display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 35px;}
+.menu-2{width: 280px;height: 450px;display: flex;flex-direction: column;align-items: center;}
+.menu-2>img{width: 73%;}
+.menu-2>h4{font-size: 27px;}
+.menu-2>p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 500;font-size: 18px;letter-spacing: 1px;}
+.menu-2>button{width: 34%;height: 27px;border-radius: 20px;background-color: #de7b6d;border: 1px solid #de7b6d;color: white;font-weight: 600;font-size: 14px;}
+.menu-2>div{width: 100%;border-bottom: 2px solid black;}
+/* discover menu css contain end */
+
+/* fresh food section css contain started */
+.main-freshFood{width: 100%;height: auto;background-color: #23262c;margin-top: 5%;}
+.main-freshFood>h2{text-align: center;font-size: 40px;color: #de7b6d;margin-top: 2%;}
+.main-freshFood>h2>span{font-size: 50px;}
+.main-freshFood>h5{text-align: center;color: white;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.fresh-menu{width: 90%;height: auto;margin: auto;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 30px;}
+.fresh-1{width: 480px;height: 500px;display: flex;flex-direction: column;}
+.freshMenu-1{width: 90%;height: 130px;margin: auto;}
+.freshMenu-1>h3{font-size: 35px;color: white;}
+.freshMenu-1>h3>span{float: right;font-size: 28px;}
+.freshMenu-1>p{font-size: 20px;color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-top: 3%;}
+.freshMenu-1>div{width: 100%;border: 2px solid white;margin-top: 2%;}
+.fresh-2{width: 480px;height: 500px;;display: flex;flex-direction: column;}
+/* fresh food section css contain end */
+
+/* italian food banner section css started */
+.main-banner{width: 100%;height: 500px;background-image: url(../img/italianFood-banner.png);background-position: center;background-size: cover;display: flex;flex-direction: column;align-items: center;}
+.main-banner>img{width: 23%;margin-top: 4%;}
+.main-banner>p{font-size: 38px;color: white;font-weight: 800;letter-spacing: 1px;}
+/* italian food banner section css end */
+
+/* footer contain css started */
+footer {background-color: #fff;padding: 40px 20px;font-family: 'Georgia', serif;display: flex;flex-direction: column; align-items: center;}
+.footer-content {display: flex;justify-content: space-between;flex-wrap: wrap;width: 100%;max-width: 1200px;}
+.footer-logo {max-width: 300px;margin-bottom: 20px; margin-left: 5%;}
+.footer-logo h3 {font-size: 26px; letter-spacing: 1px;font-weight: bold;margin-bottom: 10px;}
+.footer-line{width: 100%;border: 1px solid black;}
+.footer-logo p {font-size: 17px;font-weight: 800;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-bottom: 20px;text-align: justify}
+.footer-logo-icon {display: flex;}
+.footer-links {display: flex;justify-content: space-between;width: 100%;max-width: 600px;flex-wrap: wrap; margin-top: 5%;}
+.footer-column {margin: 0 10px;text-align: center;flex: 1;min-width: 120px;}
+.footer-column h4 { font-size: 16px;font-weight: bold;margin-bottom: 10px;text-transform: lowercase;}
+.footerLink-line{width: 111%;border: 1px solid black;}
+.footer-column ul {list-style: none;padding: 0;margin: 0;}
+.footer-column ul li {margin-bottom: 10px;}
+.footer-column ul li a {text-decoration: none;color: #000;font-size: 14px;}
+/* footer contain css end */
+
+
