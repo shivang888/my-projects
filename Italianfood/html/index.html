@@ -20,7 +20,7 @@
                 <div class="navabar">
                     <div class="logo"><img src="../img/navbar-logo.png" alt=""></div>
                     <div class="nav-content">
-                        <ul class="">
+                        <ul>
                             <li><b><u>Home</u></b></li>
                        
                             <li>Info</li>
@@ -30,6 +30,21 @@
                             <li>Menu</li>
 
                             <li>Contact</li>
+
+                           
+                                <div class="dropdown">
+                                    <button class="dropbtn">Mode</button>
+                                    <div class="dropdown-content">
+                                      <a onclick="darkmode()" href="#">Dark</a>
+
+                                      <a onclick="crimsonmode()" href="#">Crimson</a>
+                                      <a onclick="greenmode()" href="#">Green</a>
+                                      <a onclick="brownmode()" href="#">Brown</a>
+                                      <a onclick="yellowmode()" href="#">yellow</a>
+                                      <a href="">Normal Mode</a>
+                                    </div>
+                                  </div>
+                           
                         </ul>
                         <div class="search-bar">
                             <input type="text" placeholder="Search">
@@ -46,9 +61,9 @@
             <div class="hero-section">
              <div class="content">
                 <h2>Italian</h2>
-                <h3>.Delicious Food.</h3>
-                <button>SEE MORE</button>
-                <h4>Call Us!</h4>
+                <h3>.Delicious Food.</h3> <br>
+                <button>SEE MORE</button> 
+                <p>Call Us!</p>
             </div>
             </div>
         </section>
@@ -256,7 +271,7 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <h3>Italian Food</h3>
-                    <p>Lorem ipsum dolor sit amet, consec <br>
+                    <p class="footerP">Lorem ipsum dolor sit amet, consec <br>
                         tetur adipisicing elit, sed do eiusmod tempor 
                         incididunt ultimam quantum</p>
                         <div class="footer-line"></div> <br><br>
@@ -266,33 +281,33 @@
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>About</h4>
+                        <h4 class="footerh4">About</h4>
                         <div class="footerLink-line"></div> <br>
                         <ul>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Join us</a></li>
-                            <li><a href="#">Ethic</a></li>
-                            <li><a href="#">Goals</a></li>
+                            <li><a class="footerA" href="#">Team</a></li>
+                            <li><a class="footerA" href="#">Join us</a></li>
+                            <li><a class="footerA" href="#">Ethic</a></li>
+                            <li><a class="footerA" href="#">Goals</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>About</h4>
+                        <h4 class="footerh4">About</h4>
                         <div class="footerLink-line"></div> <br>
                         <ul>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Join us</a></li>
-                            <li><a href="#">Ethic</a></li>
-                            <li><a href="#">Goals</a></li>
+                            <li><a class="footerA" href="#">Team</a></li>
+                            <li><a class="footerA" href="#">Join us</a></li>
+                            <li><a class="footerA" href="#">Ethic</a></li>
+                            <li><a class="footerA" href="#">Goals</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4>About</h4>
+                        <h4 >About</h4>
                         <div class="footerLink-line"></div> <br>
                         <ul>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Join us</a></li>
-                            <li><a href="#">Ethic</a></li>
-                            <li><a href="#">Goals</a></li>
+                            <li><a class="footerA" href="#">Team</a></li>
+                            <li><a class="footerA" href="#">Join us</a></li>
+                            <li><a class="footerA" href="#">Ethic</a></li>
+                            <li><a class="footerA" href="#">Goals</a></li>
                         </ul>
                     </div>
                 </div>
@@ -300,5 +315,10 @@
         </footer>
         
           <!-- footer contain end -->
+
+
+
+          <!-- script js -->
+           <script src="../js/index.js"></script>
 </body>
 </html>

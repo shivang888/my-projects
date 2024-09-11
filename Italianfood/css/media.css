@@ -1,17 +1,25 @@
 /* website font responsive media screen */
 @media screen and (max-width:1024px){
     html{font-size: 55%;}
+    .specialist-content{width: 100%;}
 }
 
 /* tablet screen */
 /* navabar responsive */
 @media screen and (max-width:768px) {
+    .content{width:100%;}
     .nav-content>ul{display: none;}
     .search-bar{display: none;}
     .bars{margin-top: 5%;margin-left: 50%;}
     .logo>img{width: 52%;}
-    .content>button{font-size: 10px;width: 30%;}
     .content>h2{font-size: 50px;}
+    .content>h3{font-size: 35px;}
+    .bars{margin-left: 85%;}
+}
+
+@media screen and (max-width:600px) {
+    .content>h3{font-size: 25px;}
+    .shape,.shape-2{display: none;}
 }
 
 
@@ -24,11 +32,8 @@
     .about-img>img{ height: 70%;  margin-left: -8%;}
 }
 
-
 /* our section media screen */
-@media screen and (max-width:768px) {
-   .specialist-content>button{ width: 33%;  font-size: 13px;}
-}
+
 @media screen and (max-width:400px) {
     .main-specialist{margin-top: 20%;}
     .about-img{display: none;}.about-conte>p{font-size: 17px;}
@@ -38,18 +43,16 @@
     .service-heading{font-size: 20px;}.our-services{margin-top: 7%;}
 }
 
-
-
-
 /* enjoy-pasta media screen */
 @media screen and (max-width:1024px){
     .pasta-contain{left: 20%;}
     .pasta-contain>h2{font-size: 30px;}
     .pasta-contain>h2>span{font-size: 40px;}
     .pasta-contain>p{font-size: 20px;}
+    .pasta-shap{display: none;}
 }
 @media screen and (max-width:768px) {
-    .pasta-shap{display: none;}.pasta-contain>button{display: none;}.pasta-contain>p{font-size: 15px;}
+   .pasta-contain>p{font-size: 15px;}
 }
 
 /* footer responsive media query */
@@ -82,4 +85,5 @@
     .footer-column ul li a {
         font-size: 12px;
     }
+    .specialist-content>h2{font-size: 40px;}.specialist-content>p{font-size: 17px;}
 }
