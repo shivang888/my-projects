@@ -1,0 +1,7 @@
+@media screen and (max-width:992px) {
+    .navabr-ul,.nav-cart{
+        display: none;
+    }
+    .bar{display: inline;}
+    .bar>i{float: right;}
+}

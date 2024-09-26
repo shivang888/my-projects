@@ -2,6 +2,7 @@
 @media screen and (max-width:1024px){
     html{font-size: 55%;}
     .specialist-content{width: 100%;}
+    .row{flex-direction: column;}
 }
 
 /* tablet screen */
@@ -15,6 +16,8 @@
     .content>h2{font-size: 50px;}
     .content>h3{font-size: 35px;}
     .bars{margin-left: 85%;}
+    
+    
 }
 
 @media screen and (max-width:600px) {
