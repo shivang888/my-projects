@@ -1,0 +1,11 @@
+/* universal selector */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.row{display: flex;justify-content: space-between;align-items: center;}
+nav{background-color: #025402;padding: 13px;}
+nav ul{list-style-type: none;}
+.row a{color: #ebdf36;text-decoration: none;padding: 15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 800;}
+.red-shape>img{width: 100%;height: 20px;}
+.main-hero{width: 100%;height: 600px;border: 1px solid maroon;}
+.hero{width: 90%;height: 500px;position: relative;}
+.hero-background{  width: 100%; }
+.hero-dot{position: absolute;width: 80%;left: 70px;}

@@ -7,7 +7,7 @@
 /* main heder Div */
 .header-hero-bg{width: 100%;height: 850px;background-color: #ff9292;position: relative;}
 /* header-wrapper */
-.header-wrapper{ position: fixed;width: 100%;background-color: #ff9292;}
+.header-wrapper{ position: fixed;  z-index: 100;  width: 100%;background-color: #ff9292;}
 /* container */
 .container{width: 90%;margin: 0 auto;}
 /* row class */
@@ -68,7 +68,7 @@
 .main-combos{width: 100%; height: auto; background-color: #ff9292;text-align: center;position: relative;}
 .main-combos>h2{font-size: 80px;  font-family: "Montserrat", "sans-serif"; font-weight: 900; letter-spacing: 10px;color: #ffdd67;padding: 30px;}
 .main-combos>p{font-size: 28px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: white;letter-spacing: 1px;}
-.combo-card{width: 90%;height: 450px;margin: 0 auto;display: flex; flex-wrap: wrap;justify-content: center;align-items: center;gap: 70px;}
+.combo-card{width: 90%;height: auto; padding: 100px; margin: 0 auto;display: flex; flex-wrap: wrap;justify-content: center;align-items: center;gap: 70px;}
 .combo-1{width: 290px;height: 410px;border-radius: 25px;background-color: white;filter: drop-shadow(9.259px 14.257px 12px rgba(0,0,0,0.21));}
 .combo-1>h3{  font-size: 23px; letter-spacing: 1px; color: #403f3f; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding: 40px;}
 .combo-1>p{font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #403f3f;font-weight: 300;letter-spacing: 1px;padding: 10px;}
@@ -82,13 +82,13 @@
 .combos-shape2{ width: 15%; position: absolute;right: 0%;top: 51%;}
 
 /* order section started */
-.main-order{width: 100%;background-color: #ffdd67;}
+.main-order{width: 100%; height: auto; background-color: #ffdd67;}
 .main-order>h2{ font-size: 55px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #ff9292;  letter-spacing: 2px; text-align: center;padding-top: 25px;}
-.order-card{width: 90%;height: 500px;margin: auto;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 50px;}
+.order-card{width: 90%;height: auto; padding: 100px; margin: auto;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 50px;}
 .order-card-1{width: 350px;height: 350px;background-color: white; border-radius: 50%;text-align: center;}
 .order-card-1>h3{font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #ff9292; letter-spacing: 2px; padding: 50px;}
 .order-card-1>p{font-size: 23px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #403f3f;}
-.main-freeDelivery{width: 90%;height: 500px;margin: auto; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px;    position: relative;}
+.main-freeDelivery{width: 90%;height: auto;margin: auto; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px;    position: relative;}
 .delivery-img{width: 600px;height: 500px; }
 .delivery-Circle{width: 27%; position: absolute;top: 15%;left: 17%;}
 .delivery-burger{ width: 32%; position: absolute; top: 10%;left: 11%;z-index: 1;}

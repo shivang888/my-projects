@@ -1,0 +1,398 @@
+@media (max-width: 1198.98px) { 
+.orange-shoes{
+    width: 400px;
+}
+  @media (max-width: 1023.98px) {
+    .main-BestShoes{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .card{
+        width: 200px !important;
+    }
+  }  
+ }
+ @media (max-width: 991.98px) { 
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+        }
+    .orange-shoes{
+        width: 400px;
+    }
+    .bar{
+        display: block;
+    }
+    .backroung-white{
+        background-color: white;
+    }
+    .icons-main i{
+color: black !important;
+    }
+    .icons-main p {
+        color: black !important;
+    }
+    .count{
+        color: black;
+    }
+    .orange-shoes{
+        width: 350px;
+        aspect-ratio: auto 400 / 430;
+    }
+
+    .runnig-shoes {
+        width: 30%;
+        font-size: 45px;
+        padding: 20px 0px;
+    }
+    .shop-btn{
+        padding: 10px 30px 10px 30px;
+    }
+    .mini-shoes {
+        width: 80px;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.213);
+        border-radius: 50%;
+        line-height: 80px;
+        text-align: center;
+    }
+    .shoes-mini-img {
+        width: 90px;
+    }
+    .video {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.201);
+        border: none;
+    }
+    .hero-p{
+        width: 130px;
+    }
+   
+        
+     }
+     @media (max-width: 767.98px) { 
+        .orange-shoes {
+            width: 300px;
+            aspect-ratio: auto 400 / 430;
+        }
+        .shop-btn{
+            padding: 7px 20px 7px 20px;
+        }
+        .runnig-shoes {
+            width: 100%;
+            font-size: 40px;
+            padding: 20px 0px;
+        }
+        .mini-shoes {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+        }
+        .shoes-mini-img {
+            width: 80px;
+        }
+        
+     }
+@media (max-width: 575.98px) { 
+    .free-exp{
+        display: none;
+    }
+    
+.fs-size-15{
+    font-size: small;
+}
+.h2-slider-icons{
+    display: none;
+}
+.sale{
+    display: none;
+}
+.logo2{
+    text-align: center;
+}
+.d-575-none2{
+display: none;
+}
+.p-575-st{
+    padding: 20px 0px;
+}
+.shop-btn{
+    width: 150px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+.hero-p {
+    width: 130px !important;
+}
+.hero-slide-text{
+    width: 50%;
+    margin-left: 10px;
+}
+.orange-shoes {
+    width: 200px;
+    aspect-ratio: auto 200 / 230;
+}
+.mini-slider{
+    display: none !important;
+}
+.hero-main{
+    padding: 50px 0px;
+} 
+   .runnig-shoes {
+    width: 100%;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.shop-btn {
+    width: 120px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+.logo2{
+    width: 100px;
+}
+.my-container{
+    width: 100%;
+}
+i{
+    font-size: 12px;
+}
+.icon-main{
+gap: 2 !important;
+}   
+ .p-575-st {
+    padding: 20px 10px;
+}
+.marquee-item-list li {
+    padding: 00px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+}
+
+/* yash  */
+
+@media (max-width:1200px) {
+    .bestSeller{
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .bestSeller h2{
+        font-size: 35px;
+    }
+
+    .custom-heading{
+        padding: 50px 0px;
+    }
+
+    .bestSeller button{
+        padding: 10px 20px;
+    }
+    .bestMain{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+@media (max-width:1024px) {
+    .unique-caption{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .unique-caption h2{
+        padding:10px 0px 20px 0px;
+        font-size: 35px ;
+    }
+
+    .shoesCard{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 30px;     
+        margin: auto;
+        text-align: center;   
+    }
+
+    .allShoesCard{
+        width: 90%;
+        margin: auto;
+    }
+
+    .allShoesCard img{
+        width: 100%;
+    }
+
+    .shoes-text{
+        width: 30%;
+        padding: 30px 0px;   
+        margin-left: 5%;
+    }
+
+    .shoes-text h2{
+      font-size: 3vw;
+    }
+
+.addToCardHover button:nth-child(1){
+    padding: 2vw 3vw; 
+}
+
+.addToCardHover button:nth-child(2){
+    padding: 2vw 3vw; 
+}
+}
+
+@media (max-width:992px){
+    .uniqueCaption{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .uniqueCaption h2{
+        padding: 10px 0px;
+        font-size: 35px;
+    }
+    
+    .shoesCard {
+        margin-top: 20px;
+    }
+
+    .header-title h6 {
+       font-size: 21px;
+    }
+
+    .shoe-title{
+        font-size: 2vw;
+    }
+    .price{
+        font-size: 1.5vw;
+    }
+    .bestMain{
+        gap: 25px;
+    }
+    .offer-span {
+        width: 70%;
+        margin: auto;
+    }
+    .offer-title {
+        width: 80%;
+    }
+    .offer-description {
+        width: 100%;
+        margin: auto;
+        font-size: 2vw;
+    }
+    .shop-now-btn {
+        width: 50%;
+        margin: auto;
+        font-size: 1.5vw;
+    }
+} 
+
+@media (max-width:768px){
+    .uniqueCaption button {
+        padding: 8px 23px;
+        font-size: 15px;
+    }
+
+    .shoes-text .icon-Arrow{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    .shoes-text{
+        padding: 0px;
+    }
+    .header-title h6 {
+        font-size: 3vw;
+    }
+    
+    .bestSeller h2{
+        font-size: 30px;
+    }
+
+    .bestSeller p{
+        font-size: 13px;
+    }
+
+    .bestSeller button{
+        padding: 8px 17px;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .bestMain{
+        margin: auto;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+
+    .shoe-title{
+        font-size: 3vw;
+    }
+    .price{
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width:500px){
+    .shoesCard{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .allShoesCard{
+        width: 65%;
+    }
+
+    .shoes-text{
+        width: 55%;
+    }
+
+    .shoes-text h2{
+      font-size: 4vw;
+    }
+
+    .uniqueCaption h2{
+        font-size: 6vw;
+    }
+
+    .uniqueCaption p {
+        font-size: 12px;
+    }
+
+    .uniqueCaption h2 {
+        padding: 5px 0px;
+    }
+
+    .uniqueCaption button{
+        font-size: 12px;
+    }
+
+    .bestMain{
+        width: 70%;
+        margin: auto;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .shoe-title{
+        font-size: 4vw;
+    }
+    .price{
+        font-size: 3vw;
+    }
+
+}

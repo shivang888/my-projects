@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Name  -->
+    <title>Document</title>
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- codepen  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;0,800;0,900;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Bootsrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- swiper slider  -->
+      <!-- bundle css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom css link  -->
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/media.css" />
+  </head>
+  <body>
+    <!-- fist header Free express shipping with orders over $200  -->
+    <header>
+      <div class="bg-dark text-gray fw-medium pt-1 pb-1">
+       
+        <div class="my-container">
+          <nav>
+            <div
+              class="d-flex justify-content-between align-items-center fs-size-15"
+            >
+              <div class="d-flex gap-3 fs-sm-6">
+                <div>SUPPORT</div>
+                <div>STORE LOCATION</div>
+              </div>
+              <div class="free-exp me-5 pe-5 d-sm-none d-lg-block">
+                FREE EXPRESS SHIPPING WITH ORDER OVER $200
+              </div>
+              <div>
+                <div class="dropdown">
+                  <button
+                    class="btn text-gray fw-medium dropdown-toggle fs-size-15"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    USD $
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      
+      <div class="pt-sm-0  bg-img text-light fw-semibold pt-xl-4">
+        <div class="backroung-white p-sm-4 p-575-st">
+        <div class="my-container">
+          <nav>
+            <div class="d-flex justify-content-between">
+              <div class="bar">
+                <i class="fa-solid fa-bars fa-lg" style="color: #646464;"></i>
+              </div>
+              <div>
+                <img class="logo" src="../IMG/logo.webp" alt="" />
+                <img class="logo2" src="../IMG/logo-2.avif" alt="">
+              </div>
+              <div class="d-575-none2 d-sm-none d-lg-block col-40 ">
+                <ul class="d-flex justify-content-evenly align-items-center list-unstyled  ">
+                 <a href="">
+                  <li class="d-flex gap-1 align-items-center">
+                    HOME
+                       <i class="fa-solid fa-chevron-down" style="color: #ffffff"></i>
+                   </li>
+                 </a>
+                 <a href=""> <li class="position-relative">SHOP <sup><img class="sale position-absolute" src="../IMG/sale.png" alt=""></sup></li></a>
+                 <a href=""> <li>PRODUCTS</li></a>
+                 <a href=""> <li>BLOG</li></a>
+                <a href="">
+                  <li class="d-flex gap-1 align-items-center">
+                    PAGES
+                    <i
+                      class="fa-solid fa-chevron-down"
+                      style="color: #ffffff"
+                    ></i>
+                  </li>
+                </a>
+                </ul>
+              </div>
+              <div class="d-flex gap-4 align-items-center justify-content-evenly icons-main">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #ffffff"
+                ></i>
+                <i class="fa-solid fa-user" style="color: #ffffff"></i>
+                <div class="d-flex align-items-center gap-2">
+                  <i class="fa-solid fa-heart" style="color: #ffffff"></i>
+                  <div  class="count">0</div>
+                </div>
+                <a href="../HTML/cart.html">
+                  <div class="d-flex align-items-center gap-2" >
+                    <i
+                      class="fa-solid fa-bag-shopping"
+                      style="color: #ffffff"
+                    ></i>
+                    <div id="count" class="count">0</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </nav>
+          </div>
+        </div>
+           <!-- hero section started  -->
+
+           
+
+      <div class="my-container">
+        <div class="bg-img text-light fw-semibold pt-4">
+          <div id="carouselExampleIndicators" data-bs-ride="carousel" class="carousel slide">
+              <div class="carousel-inner">
+                <div  class="carousel-item f1-slider active " data-bs-interval="3000">
+                  <div class="d-flex justify-content-between align-items-center hero-main">
+                      <div class="col-25 hero-slide-text">
+                        <p class="hero-p bg-black  text-center p-2">$899 - $1200</p>
+                        <h2 class="hero-h2 runnig-shoes">RUNNING SHOES</h2>
+                        <button class="shop-btn">SHOP NOW</button>
+                      </div>
+                      <div>
+                        <img class="orange-shoes" src="../IMG/slider-img1.webp" alt="">
+                      </div>
+                      <div class="d-sm-none d-md-block h2-slider-icons">
+                        <i class="fa-brands fa-facebook fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-linkedin fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-telegram fa-lg d-block p-4" style="color: #ffffff;"></i>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div data-bs-interval="3000" class="carousel-item f1-slider border-0">
+                  <div class="d-flex justify-content-between align-items-center hero-main">
+                      <div class="col-25 hero-slide-text">
+                        <p class="hero-p bg-black w-50 text-center p-2">$899 - $1200</p>
+                        <h2 class="hero-h2 runnig-shoes">REACT INFINTY</h2>
+                        <button class="shop-btn ">SHOP NOW</button>
+                      </div>
+                      <div>
+                        <img class="orange-shoes" src="../IMG/slider-img2.webp" alt="">
+                      </div>
+                      <div class="d-sm-none d-md-block h2-slider-icons ">
+                        <i class="fa-brands fa-facebook fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-linkedin fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-telegram fa-lg d-block p-4" style="color: #ffffff;"></i>
+                      </div>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item f1-slider border-0 ">
+                  <div class="d-flex justify-content-between align-items-center hero-main">
+                      <div class="col-25 hero-slide-text">
+                        <p class="hero-p bg-black w-50 text-center p-2">$899 - $1200</p>
+                        <h2 class="hero-h2 runnig-shoes">AIRMAX RACING</h2>
+                        <button class="shop-btn">SHOP NOW</button>
+                      </div>
+                      <div>
+                        <img class="orange-shoes" src="../IMG/slider-img3.webp" alt="">
+                      </div>
+                      <div class="d-sm-none d-md-block d-575-none2">
+                        <i class="fa-brands fa-facebook fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-linkedin fa-lg d-block p-4" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-telegram fa-lg d-block p-4" style="color: #ffffff;"></i>
+                      </div>
+                    </div>
+                </div>
+              </div>
+      
+              <div>
+                  <div class="mini-slider d-flex justify-content-between align-items-center ">
+                      <div class="d-flex align-items-center gap-3 ">
+                          <a href="https://youtu.be/0Aja_yP93PY?si=6bE0QVT0IDcRKrlg"> <button class="video"><i class="fa-solid fa-play fa-lg" style="color: #ffffff;"></i></button></a>
+                           <div class="d-sm-none d-md-block d-575-none2">WATCH VIDEO</div>
+                         </div>
+                      <div class="w-50 d-flex justify-content-center gap-sm-4 gap-mb-5 ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active f1-slider border-0" aria-current="true" aria-label="Slide 1">
+                  <div class="mini-shoes ">
+                      <img class="shoes-mini-img" src="../IMG/orange-mini-hero.avif" alt="">
+                    </div>
+                </button>
+                <button class="f1-slider border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                  <div class="mini-shoes">
+                      <img class="shoes-mini-img" src="../IMG/white-mini-hero.avif" alt="">
+                    </div>
+                </button>
+                <button class="f1-slider border-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                  <div class="mini-shoes">
+                      <img class="shoes-mini-img" src="../IMG/blue-mini-hero.avif" alt="">
+                    </div>
+                </button>
+                </div>
+                </div>
+              </div>
+          </div>
+            </div>
+        </div>
+        
+      <!-- mini slider section  -->
+
+    </div>
+    </header>
+
+   <!-- main contain started -->
+   <main>
+    <!-- Best shoes section started -->
+     <section>
+      <div class="marquee-row">
+        <div class=" marquee-block marquee1">
+          <ul class=" marquee-item-list">
+            <li>Sale up to 70% off on selected items! </li>
+            <li>Up to 50% off on selected styles </li>
+            <li>Still with up to 50% off.  </li>
+            <li>New styles added in </li>
+            <li>Black friday sale! </li>
+          </ul>
+        </div>
+      </div>
+     </section>
+
+
+     <!-- yash  -->
+
+      <!-- Unique collection section-->
+     
+    <main>
+      <section>
+          <div class="UniqueCollection">
+          <div class="mycontainer">
+              <div class="uniqueCaption">
+                     <div>
+                          <p>#Customise shoes</p>
+                          <h2>Unique collection</h2>
+                     </div>
+
+                     <div>
+                      <button>more collection</button>
+                     </div>
+              </div>
+
+              <div class="shoesCard">
+                <!-- <div class="card" id="running-shoes"> -->
+                    <div class="allShoesCard">
+                      <div class="shoes-text">
+                        <h2>RUNINNG  <br><span>SHOES</span></h2>
+                        <span class="icon-Arrow"><i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></span>
+                      </div>
+                        <img src="../IMG/Unique img1.webp" class="shoe-image" alt="Running Shoes">
+                    <!-- </div> -->
+                </div>
+        
+                <!-- <div class="card" id="newest-sneakers"> -->
+                    <div class="allShoesCard">
+                        <div class="shoes-text">
+                        <h2>NEWEST <br><span>SNEAKERS</span></h2>
+                        <span class="icon-Arrow">
+                          <i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i>
+                        </span>
+                        </div>
+                        <img src="../IMG/Unique img2.webp" class="shoe-image" alt="Newest Sneakers">
+                    <!-- </div> -->
+                </div>
+        
+                <!-- <div class="card" id="air-zoom-pegasus"> -->
+                    <div class="allShoesCard">
+                        <div class="shoes-text">
+                        <h2>AIR ZOOM  <br><span>PEGASUS</span></h2>
+                          <span class="icon-Arrow"><i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></span>
+                        </div>
+                        <img src="../IMG/Unique img3webp.webp" class="shoe-image" alt="Air Zoom Pegasus">
+                    <!-- </div> -->
+                </div>
+        
+                <!-- <div class="card" id="jordan-shoes"> -->
+                    <div class="allShoesCard">
+                        <div class="shoes-text">
+                        <h2>JORDAN  <br><span>SHOES</span></h2>
+                        <span class="icon-Arrow"><i class="fa-solid fa-arrow-right fa-sm" style="color: #ffffff;"></i></span>
+                        </div>
+                        <img src="../IMG/Unique img4webp.webp" class="shoe-image" alt="Jordan Shoes">
+                    <!-- </div> -->
+                </div>
+            </div>
+          </div>
+      </div>
+      </section>
+
+   <!-- offer secction  -->
+      <section class="custom-heading">
+          <!-- <div class="container"> -->
+                      <div class="header-bl">
+                          <div class="header-title">
+                            
+                            <h6>Biggest celebration offer 50% off on sport Shoes -<a href="">Shop now</a></h6>
+                            
+                          </div>
+                      </div>
+          <!-- </div> -->
+      </section>
+
+
+    <!-- best seller shoes  -->
+      <section>
+      <div class="popularShoes">
+         <div class="mycontainer">
+            <div class="bestSeller">
+              <div>
+                   <p>#popular shoes trends</p>
+                   <h2>Best sellers shoes</h2>
+              </div>
+
+              <div>
+               <button>Jordan shoes</button>
+               <button>Runinng shoes</button>
+               <button>Newest sneakers</button>
+              </div>
+           </div>
+
+           
+<!-- card started  -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="bestMain">
+      <!-- 1 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller1.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">NIKE AIR SMPINRE</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">1900</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Leather Formal shoes` , `1900` , `../IMG/bestseller1.webp` )"  class="add-to-cart"  name="Running shoes" ><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 2 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller2.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Leather Formal shoes</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">1300</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Leather Formal shoes` , `1300` , `../IMG/bestseller2.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 3 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller3.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Nike Air VaporMax</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">2500</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Nike Air VaporMax` , `2500` , `../IMG/bestseller3.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 4 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller4.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Nike air zoom kiger</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">3000</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Nike air zoom kiger` , `3000` , `../IMG/bestseller4.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+      <!-- 1 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller5.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Nike air zoom pegasus</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">5000</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Nike air zoom pegasus` , `5000` , `../IMG/bestseller5.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 2 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller6.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Nike sport shoes</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">4300</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Nike sport shoes` , `4300` , `../IMG/bestseller6.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 3 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller7.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Puma sport shoes</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">4500</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Puma sport shoes` , `4500` , `../IMG/bestseller7.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 4 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller8.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Slipt leather shoes</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">2900</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Slipt leather shoes` , `2900` , `../IMG/bestseller8.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="bestMain">
+<!-- 1 -->
+<div class="bestCard">
+<img src="../IMG/bestseller2.webp" alt="Nike Air Spminre" class="shoe-image">
+<h2 class="shoe-title">Leather Formal shoes</h2>
+<p class="category">Running shoes</p>
+<div class="stars">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+<div class="line"></div>
+<p class="price">2000</p>
+<div class="addToCardHover">
+  <button onclick="filter(`Running shoes` , `Leather Formal shoes` , `2000` , `../IMG/bestseller2.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+  <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="bestCard">
+<img src="../IMG/bestseller3.webp" alt="Nike Air Spminre" class="shoe-image">
+<h2 class="shoe-title">Nike Air VaporMax</h2>
+<p class="category">Running shoes</p>
+<div class="stars">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+<div class="line"></div>
+<p class="price">7800</p>
+<div class="addToCardHover">
+  <button onclick="filter(`Running shoes` , `Nike Air VaporMax` , `7800` , `../IMG/bestseller3.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+  <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="bestCard">
+<img src="../IMG/bestseller4.webp" alt="Nike Air Spminre" class="shoe-image">
+<h2 class="shoe-title">Nike air zoom kiger</h2>
+<p class="category">Running shoes</p>
+<div class="stars">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+<div class="line"></div>
+<p class="price">5600</p>
+<div class="addToCardHover">
+  <button onclick="filter(`Running shoes` , `Leather Formal shoes` , `5600` , `../IMG/bestseller4.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+  <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="bestCard">
+<img src="../IMG/bestseller9.webp" alt="Nike Air Spminre" class="shoe-image">
+<h2 class="shoe-title">Smart black shoes</h2>
+<p class="category">Running shoes</p>
+<div class="stars">
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+    <span>★</span>
+</div>
+<div class="line"></div>
+<p class="price">7800</p>
+<div class="addToCardHover">
+  <button onclick="filter(`Running shoes` , `Smart black shoes` , `7800` , `../IMG/bestseller9.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+  <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+</div>
+</div>
+
+<!-- 1 -->
+<div class="bestCard">
+  <img src="../IMG/bestseller6.webp" alt="Nike Air Spminre" class="shoe-image">
+  <h2 class="shoe-title">Nike sport shoes</h2>
+  <p class="category">Running shoes</p>
+  <div class="stars">
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+  </div>
+  <div class="line"></div>
+  <p class="price">8900</p>
+  <div class="addToCardHover">
+    <button onclick="filter(`Running shoes` , `Nike sport shoes` , `8900` , `../IMG/bestseller6.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+    <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+  </div>
+</div>
+
+<!-- 2 -->
+<div class="bestCard">
+  <img src="../IMG/bestseller7.webp" alt="Nike Air Spminre" class="shoe-image">
+  <h2 class="shoe-title">Puma sport shoes</h2>
+  <p class="category">Running shoes</p>
+  <div class="stars">
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+  </div>
+  <div class="line"></div>
+  <p class="price">4670</p>
+  <div class="addToCardHover">
+    <button onclick="filter(`Running shoes` , `Puma sport shoes` , `4670` , `../IMG/bestseller7.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+    <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+  </div>
+</div>
+
+<!-- 3 -->
+<div class="bestCard">
+  <img src="../IMG/bestseller8.webp" alt="Nike Air Spminre" class="shoe-image">
+  <h2 class="shoe-title">Slipt leather shoes</h2>
+  <p class="category">Running shoes</p>
+  <div class="stars">
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+  </div>
+  <div class="line"></div>
+  <p class="price">9870</p>
+  <div class="addToCardHover">
+    <button onclick="filter(`Running shoes` , `Slipt leather shoes` , `9870` , `../IMG/bestseller8.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+    <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+  </div>
+</div>
+
+<!-- 4 -->
+<div class="bestCard">
+  <img src="../IMG/bestseller10.webp" alt="Nike Air Spminre" class="shoe-image">
+  <h2 class="shoe-title">Nike Air Zoom Vomero</h2>
+  <p class="category">Running shoes</p>
+  <div class="stars">
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+  </div>
+  <div class="line"></div>
+  <p class="price">1300</p>
+  <div class="addToCardHover">
+    <button onclick="filter(`Running shoes` , `Nike Air Zoom Vomero` , `1300` , `../IMG/bestseller10.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+    <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+  </div>
+</div>
+</div>
+  </div>
+  <div class="carousel-item">
+    <div class="bestMain">
+      <!-- 1 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller3.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Nike Air VaporMax</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">9876</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Nike Air VaporMax` , `9876` , `../IMG/bestseller3.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 2 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller4.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Nike air zoom kiger</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">3456</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Nike air zoom kiger` , `3456` , `../IMG/bestseller4.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 3 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller9.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">Smart black shoes</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">2500</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `Smart black shoes` , `2500` , `../IMG/bestseller9.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+    <!-- 4 -->
+    <div class="bestCard">
+      <img src="../IMG/bestseller1.webp" alt="Nike Air Spminre" class="shoe-image">
+      <h2 class="shoe-title">NIKE AIR SMPINRE</h2>
+      <p class="category">Running shoes</p>
+      <div class="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+      </div>
+      <div class="line"></div>
+      <p class="price">3400</p>
+      <div class="addToCardHover">
+        <button onclick="filter(`Running shoes` , `NIKE AIR SMPINRE` , `3400` , `../IMG/bestseller1.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+        <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+      </div>
+    </div>
+    
+      <!-- 1 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller7.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Puma sport shoes</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">Rs. 1,600.00</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Puma sport shoes` , `5600` , `../IMG/bestseller7.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 2 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller8.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Slipt leather shoes</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">6700</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Slipt leather shoes` , `6700` , `../IMG/bestseller8.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 3 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller10.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Nike Air Zoom Vomero</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">1300</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Nike Air Zoom Vomero` , `1300` , `../IMG/bestseller10.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+      
+      <!-- 4 -->
+      <div class="bestCard">
+        <img src="../IMG/bestseller5.webp" alt="Nike Air Spminre" class="shoe-image">
+        <h2 class="shoe-title">Nike air zoom pegasus</h2>
+        <p class="category">Running shoes</p>
+        <div class="stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+        </div>
+        <div class="line"></div>
+        <p class="price">10000</p>
+        <div class="addToCardHover">
+          <button onclick="filter(`Running shoes` , `Nike air zoom pegasus` , `10000` , `../IMG/bestseller5.webp` )"  class="add-to-cart"  name="Running shoes"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i>  ADD TO CART</button>
+          <button> <i class="fa-regular fa-eye fa-sm" style="color: #ffffff;"></i>   QUICKVIEW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+          </div>
+      </div>
+      
+
+    <!-- ultraLight comfort zone section  -->
+<section>
+<div class="offer-container">
+  <div class="offer-image">
+      <img src="../IMG/ultraLightimg.webp" alt="Shoe Offer">
+  </div>
+  <div class="offer-details">
+      <span class="offer-span">#BEST OFFER PRICE</span>
+      <h2 class="offer-title">ULTRALIGHT COMFORT ZONE</h2>
+      <p class="offer-description">Give your feet the beauty treatment that only brand new shoes can give. Try to make something unique about your stores.</p>
+      <a href="#" class="shop-now-btn">SHOP NOW</a>
+  </div>
+</div>
+</section>
+
+
+
+     <!-- footer contain started -->
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Keep in touch</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Refund policy</a></li>
+            <li><a href="#">Faq's</a></li>
+          </ul>
+        </div>
+        
+
+        <div class="footer-col">
+          <h4>MY ACCOUNT</h4>
+          <ul class="links">
+            <li><a href="#">My account</a></li>
+            <li><a href="#">My cart</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Order history</a></li>
+            <li><a href="#">Return policy</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>OUR LEGAL</h4>
+          <ul class="links">
+            <li><a href="#">Terms & condition</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Track order</a></li>
+            <li><a href="#">Store location</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <img class="logo" src="../img/logo.webp" alt="">
+          <p>
+            Get 15% Off your First Order and Coupan - UBONE-8855 plese use Coupan 40% Off
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer contain end -->
+   <script src="../JAVASCRIPT/index.js"></script>
+   <!-- <script src="../JAVASCRIPT/cart.js"></script> -->
+  </body>
+</html>
+<!-- codepen  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootsrap link  -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+
+<!-- swiper slider  -->
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+    },
+    spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5500,
+        disableOnInteraction: false,
+      }
+  });
+</script>
+
+<script>
+  var elements = $('ul.marquee-item-list li').length;
+for(var i=0;i < elements; i++){
+ $(".marquee-item-list").clone().prependTo( ".marquee-block" );
+};
+var liEle = [];
+var liEle = $(".marquee-item-list li");
+</script>
+
+
